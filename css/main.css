@@ -87,127 +87,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
  body {
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  color: white;
-  background-color: #1F2937;
-  max-width: 550px;
-  max-height: 550px;
-  min-height: 100vh;
   margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.light {
-  background-color: #ECFDF5;
-}
-
-.light-font {
-  color: #2B283A;
-}
-
-.toggle-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.dark, .day {
-  padding: 0 20px;
-  font-size: 16px;
-}
+/* green color -> #5f9341 */
 
 input {
-  height: 0;
-  width: 0;
-  opacity: 0;
-}
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 40px;
 
-.switch {
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  width: 70px;
-  height: 34px;
-  background-color: #222;
-  border-radius: 34px;
-}
-
-.ball {
-  position: absolute;
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  border-radius: 50%;
-  background-color: #fff;
-  transition: transform 0.2s ease-out;
-}
-
-.ball.move-right {
-  -webkit-transform: translateX(34px);
-  -ms-transform: translateX(34px);
-  transform: translateX(34px);
-}
-
-
-main {
-  padding: 115px 52px;
-}
-
-h1 {
-  font-size: 40px;
-  line-height: 40px;
-  text-align: left;
-  width: 360px;
-  height: 80px;
-  font-family: 'Karla', sans-serif;
-}
-
-h1 span {
-    color: #4ADF86;
-}
-
-p {
-  font-size: 20px;
-  line-height: 28px;
-  padding: 18px 0;
-}
-
-p, button {
-  color: white;
-  font-weight: normal;
 }
 
 button {
-    background: #10B981;
-    border: none;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 9px 15px;
-    border-radius: 6px;
-    margin-bottom: 18px;
+  background-color: #5f9341;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border: none;
 }
 
-.passwords {
-  display: flex;
-}
 
-#passwordOne-el, #passwordTwo-el {
-  background-color: #273549;
-  color: #55F991;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 9px 15px;
-  border-radius: 6px;
-  margin-right: 10px;
-  width: 211px;
-  height: 30px;
-  text-align: center;
-}
-
-p#passwordOne-el, p#passwordTwo-el {
-  padding: 8px 0 0 0;
-}
 
 
 /* ==========================================================================
