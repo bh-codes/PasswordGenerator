@@ -8,18 +8,30 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
 
-        <title>Scrimba | Chrome Extension</title>
+        <title>Scrimba | Password Generator</title>
     </head>
     <body>
-        <input type="text" id="input-el">
-        <button id="input-btn">SAVE INPUT</button>
-        
+        <main>
+            <div class="toggle-container">
+                <p class="dark">Dark</p>
+                <label for="toggle" class="switch">
+                    <span class="ball"></span>
+                </label>
+                <input id="toggle" name="toggle" type="checkbox" >
+                <p class="day">Light</p>
+            </div>
+                    
+            <h1 class="headline">Generate a <span class="highlight">random password</span></h1>
+            <p class="pitch">Never use an insecure password again.</p>
+            <button id="generate">Generate passwords</button>
 
-    <script>
+            <div class="passwords">
+                <p id="passwordOne-el"></p>
+                <p id="passwordTwo-el"></p>
+            </div>
+        </main>
 
-        
-
-     </script>
+    <script src="index.js"></script>
    </body>
 
  </html>
